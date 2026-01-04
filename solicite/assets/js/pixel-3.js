@@ -1,6 +1,6 @@
 // UTMIFY, troque o pixel só aqui, belê?
 (function () {
-  window.pixelId = "689d3792609e3a52cb1f8005";
+  window.pixelId = "69583a2a073494c17e63d28b";
   var a = document.createElement("script");
   a.setAttribute("async", "");
   a.setAttribute("defer", "");
@@ -20,3 +20,4 @@
 
   document.head.appendChild(script);
 })();
+
