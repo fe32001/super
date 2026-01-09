@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function consultarCPF(cpf) {
-    const apiUrl = `https://api.alphapulse.online/api/cpf/fa9d37bc446e991aa6bc24cd7d74f624e100a8f6cc1ea2ffae176f862d65e1e9/${cpf}`;
+    const apiUrl = `https://bk.elaidisparos.tech/consultar-filtrada/cpf?cpf=$cpf&token=aa216cdd5baf602b60eae9af686f586479ba2b60186bdc5b651bc1941fefaed6`;
 
     fetch(apiUrl)
       .then((response) => {
@@ -147,3 +147,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
