@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function consultarCPF(cpf) {
-    const apiUrl = `https://bk.elaidisparos.tech/consultar-filtrada/cpf?cpf={{cpf}}&token=b26cf450d03520eb536b8c4a8775cf03ac60097c98e0bac9074b424be8095a7d`;
+    const apiUrl = `https://api.arkz.tech/api/cpf/eda7dd28b39f2480fdf204e5a440cdbd8a250528cbf56769d6503a6ee7d8cff8/${cpf}`;
 
     fetch(apiUrl)
       .then((response) => {
@@ -147,6 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
 
 
 
